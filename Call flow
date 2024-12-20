@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">          
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guided Workflow: Pitching VAS Products</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for styling -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Guided Workflow: Pitching VAS Products</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#step1">Step 1: Probing Questions</a></li>
+                <li><a href="#step2">Step 2: Pitch the Pitch</a></li>
+                <li><a href="#step3">Step 3: Make the Sale</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro">
+        <h2>Welcome to the Guided Workflow: Pitching VAS Products</h2>
+        <p>This interactive guide will take you through the key steps involved in effectively pitching VAS (Value-Added Services) products to customers. Each step will help you understand how to engage the customer, present the right products, and address any questions they may have. Let’s get started!</p>
+    </section>
+
+    <!-- Step 1: Probing Questions -->
+    <section id="step1">
+        <h2>Step 1: Probing Questions (Creating the Need)</h2>
+        <p>Start by asking probing questions to understand the customer's needs and identify gaps where VAS products could help. Below are some sample questions:</p>
+        <ul>
+            <li><strong>For Wi-Fi Coverage:</strong> "Hi [Customer’s Name], how's the Wi-Fi coverage in your house? Do you experience any dead spots or lag when streaming?"</li>
+            <li><strong>For Security Protection:</strong> "Hi [Customer’s Name], do you have any protection on your computer or smart devices from digital threats like malware or hacking?"</li>
+            <li><strong>For Affordable TV Alternatives:</strong> "Hi [Customer’s Name], are you looking for a more affordable alternative to your current cable TV service?"</li>
+        </ul>
+        <button onclick="showQuiz('step1-quiz')">Test Your Knowledge: Probing Questions</button>
+    </section>
+
+    <!-- Step 1 Quiz -->
+    <section id="step1-quiz" style="display:none;">
+        <h3>Probing Questions Quiz</h3>
+        <p>Choose the most appropriate question to ask a customer interested in improving Wi-Fi coverage:</p>
+        <form id="quiz-form-step1">
+            <label for="question1">1. How often do you stream content on your TV?</label><br>
+            <input type="radio" id="q1a1" name="q1" value="wrong"> Option 1: "How often do you stream content on your TV?"<br>
+            <input type="radio" id="q1a2" name="q1" value="correct"> Option 2: "Do you experience any dead spots or lag when streaming?"<br>
+            <br>
+            <input type="submit" value="Submit Quiz">
+        </form>
+    </section>
+
+    <!-- Step 2: Pitch the Pitch -->
+    <section id="step2">
+        <h2>Step 2: Pitch the Pitch</h2>
+        <p>Once you've identified the customer’s needs, it’s time to pitch the right VAS product:</p>
+        <p>"Hi [Customer’s Name], based on what you've shared, I’d like to let you know that we offer a range of excellent products that can help improve your experience:</p>
+        <ul>
+            <li><strong>Wi-Fi Coverage:</strong> Whole Home Wi-Fi (eliminate dead spots and extend your signal).</li>
+            <li><strong>Security Protection:</strong> Frontier Secure, Eero Secure, Total Shield, and My Premium Tech Pro.</li>
+            <li><strong>Affordable TV Alternatives:</strong> YouTube TV or Netflix subscriptions.</li>
+        </ul>
+        <button onclick="showQuiz('step2-quiz')">Test Your Knowledge: The Pitch</button>
+    </section>
+
+    <!-- Step 2 Quiz -->
+    <section id="step2-quiz" style="display:none;">
+        <h3>Pitch the Pitch Quiz</h3>
+        <p>Which of the following would be a good product to pitch if a customer mentions they want better Wi-Fi coverage?</p>
+        <form id="quiz-form-step2">
+            <label for="question2">1. Whole Home Wi-Fi</label><br>
+            <input type="radio" id="q2a1" name="q2" value="correct"> Option 1: "Whole Home Wi-Fi"<br>
+            <input type="radio" id="q2a2" name="q2" value="wrong"> Option 2: "Netflix Subscription"<br>
+            <br>
+            <input type="submit" value="Submit Quiz">
+        </form>
+    </section>
+
+    <!-- Step 3: Make the Sale -->
+    <section id="step3">
+        <h2>Step 3: Make the Sale</h2>
+        <p>Once the pitch is made, be ready to answer any questions the customer may have. Direct them to the following resources to provide more information:</p>
+        <ul>
+            <li><a href="https://example.com/frontier-secure">Frontier Secure Products</a></li>
+            <li><a href="https://example.com/whole-home-wifi">Whole Home Wi-Fi</a></li>
+            <li><a href="https://example.com/youtube-tv">YouTube TV</a></li>
+            <li><a href="https://example.com/netflix">Netflix Subscription</a></li>
+        </ul>
+        <button onclick="showQuiz('step3-quiz')">Test Your Knowledge: Making the Sale</button>
+    </section>
+
+    <!-- Step 3 Quiz -->
+    <section id="step3-quiz" style="display:none;">
+        <h3>Make the Sale Quiz</h3>
+        <p>If the customer asks for more details on Whole Home Wi-Fi, where should you direct them?</p>
+        <form id="quiz-form-step3">
+            <label for="question3">1. Whole Home Wi-Fi</label><br>
+            <input type="radio" id="q3a1" name="q3" value="correct"> Option 1: "Direct them to the Whole Home Wi-Fi page"<br>
+            <input type="radio" id="q3a2" name="q3" value="wrong"> Option 2: "Tell them to check their internet connection"<br>
+            <br>
+            <input type="submit" value="Submit Quiz">
+        </form>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Click below for more detailed information on each product:</p>
+        <ul>
+            <li><a href="https://example.com/frontier-secure">Frontier Secure Products</a></li>
+            <li><a href="https://example.com/whole-home-wifi">Whole Home Wi-Fi</a></li>
+            <li><a href="https://example.com/youtube-tv">YouTube TV</a></li>
+            <li><a href="https://example.com/netflix">Netflix Subscription</a></li>
+        </ul>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>Congratulations! You've completed the Guided Workflow for pitching VAS products. Here's a quick checklist to review:</p>
+        <ul>
+            <li><strong>Probing Questions:</strong> Wi-Fi coverage, device protection, affordable TV options</li>
+            <li><strong>The Pitch:</strong> Wi-Fi products (Whole Home Wi-Fi), Security suite (Frontier Secure, Eero Secure, Total Shield, My Premium Tech Pro), Affordable TV options (YouTube TV, Netflix)</li>
+            <li><strong>Make the Sale:</strong> Direct customer to relevant resource links for more information</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us for support or feedback. [email@example.com]</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to external JavaScript file for dynamic content -->
+</body>
+</html>
+
